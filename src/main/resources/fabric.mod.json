@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "magnesium24",
+	"version": "${version}",
+	"name": "Magnesium24",
+	"description": "Adding Magnesium metal to Minecraft",
+	"authors": [
+		"flrr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/magnesium24/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.flrr.mg24.Magnesium24"
+		],
+		"client": [
+			"net.flrr.mg24.Magnesium24Client"
+		],
+		"fabric-datagen": [
+			"net.flrr.mg24.Magnesium24DataGenerator"
+		]
+	},
+	"mixins": [
+		"magnesium24.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
