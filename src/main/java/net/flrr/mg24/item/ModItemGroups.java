@@ -1,6 +1,7 @@
 package net.flrr.mg24.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.flrr.mg24.Magnesium24;
+import net.flrr.mg24.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.MAGNESIUM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MAGNESIUM);
                         entries.add(ModItems.RAW_MAGNESIUM);
+                        entries.add(ModBlocks.MAGNESIUM_BLOCK);
+                        entries.add(ModBlocks.RAW_MAGNESIUM_BLOCK);
 
                     }).build());
 

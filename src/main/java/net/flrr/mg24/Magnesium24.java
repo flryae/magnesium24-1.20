@@ -2,6 +2,7 @@ package net.flrr.mg24;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.flrr.mg24.block.ModBlocks;
 import net.flrr.mg24.item.ModItemGroups;
 import net.flrr.mg24.item.ModItems;
 import org.slf4j.Logger;
@@ -15,7 +16,7 @@ public class Magnesium24 implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroup();
 
-
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 	}
 }

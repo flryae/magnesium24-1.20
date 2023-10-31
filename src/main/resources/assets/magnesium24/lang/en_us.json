@@ -1,5 +1,7 @@
 {
   "item.magnesium24.magnesium": "Magnesium",
   "item.magnesium24.raw_magnesium": "Raw Magnesium",
-  "itemgroup.magnesium": "Magnesium24"
+  "itemgroup.magnesium": "Magnesium24",
+  "block.magnesium24.magnesium_block": "Block of Magnesium",
+  "block.magnesium24.raw_magnesium_block": "Block of Raw Magnesium"
 }
